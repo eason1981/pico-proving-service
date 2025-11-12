@@ -5774,7 +5774,7 @@ dependencies = [
 [[package]]
 name = "pico-derive"
 version = "0.1.0"
-source = "git+https://github.com/brevis-network/pico.git?branch=prover-network#d3f33e67af5fb70b2d808251bd2d97d051dced80"
+source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#0d51940abe70958f7c34149ebdfa043640c2caa7"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5784,7 +5784,7 @@ dependencies = [
 [[package]]
 name = "pico-patch-libs"
 version = "1.1.6"
-source = "git+https://github.com/brevis-network/pico.git?branch=prover-network#d3f33e67af5fb70b2d808251bd2d97d051dced80"
+source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#0d51940abe70958f7c34149ebdfa043640c2caa7"
 dependencies = [
  "bincode",
  "serde",
@@ -5793,7 +5793,7 @@ dependencies = [
 [[package]]
 name = "pico-perf"
 version = "1.1.6"
-source = "git+https://github.com/brevis-network/pico.git?branch=prover-network#d3f33e67af5fb70b2d808251bd2d97d051dced80"
+source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#0d51940abe70958f7c34149ebdfa043640c2caa7"
 dependencies = [
  "anyhow",
  "bincode",
@@ -5858,7 +5858,7 @@ dependencies = [
 [[package]]
 name = "pico-sdk"
 version = "1.1.6"
-source = "git+https://github.com/brevis-network/pico.git?branch=prover-network#d3f33e67af5fb70b2d808251bd2d97d051dced80"
+source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#0d51940abe70958f7c34149ebdfa043640c2caa7"
 dependencies = [
  "anyhow",
  "bincode",
@@ -5884,7 +5884,7 @@ dependencies = [
 [[package]]
 name = "pico-vm"
 version = "1.1.6"
-source = "git+https://github.com/brevis-network/pico.git?branch=prover-network#d3f33e67af5fb70b2d808251bd2d97d051dced80"
+source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#0d51940abe70958f7c34149ebdfa043640c2caa7"
 dependencies = [
  "anyhow",
  "arrayref",
