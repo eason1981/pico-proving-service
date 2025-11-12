@@ -29,8 +29,8 @@ path = "bin/test_client.rs"
 
 [dependencies]
 # pico
-pico-vm = { git = "https://github.com/brevis-network/pico.git", features = ["jemalloc", "nightly-features"], branch = "prover-network" }
-pico-perf = { git = "https://github.com/brevis-network/pico.git", branch = "prover-network" }
+pico-vm = { git = "https://github.com/brevis-network/pico.git", features = ["jemalloc", "nightly-features"], tag = "v1.1.8" }
+pico-perf = { git = "https://github.com/brevis-network/pico.git", tag = "v1.1.8" }
 
 # rsp
 rsp-host-executor = { git = "https://github.com/brevis-network/rsp.git", features = ["execution-witness"], rev = "5b3ab06" }
