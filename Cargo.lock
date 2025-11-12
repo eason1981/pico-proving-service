@@ -1726,7 +1726,7 @@ dependencies = [
  "bitflags 2.10.0",
  "cexpr",
  "clang-sys",
- "itertools 0.13.0",
+ "itertools 0.12.1",
  "log",
  "prettyplease",
  "proc-macro2",
@@ -1746,7 +1746,7 @@ dependencies = [
  "bitflags 2.10.0",
  "cexpr",
  "clang-sys",
- "itertools 0.13.0",
+ "itertools 0.12.1",
  "log",
  "prettyplease",
  "proc-macro2",
@@ -3845,7 +3845,7 @@ dependencies = [
  "libc",
  "percent-encoding",
  "pin-project-lite",
- "socket2 0.6.1",
+ "socket2 0.5.10",
  "system-configuration",
  "tokio",
  "tower-service",
@@ -5773,8 +5773,8 @@ dependencies = [
 
 [[package]]
 name = "pico-derive"
-version = "0.1.0"
-source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#0d51940abe70958f7c34149ebdfa043640c2caa7"
+version = "1.1.8"
+source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#f1813ece61058c3f1f09e878d1c8d791c6226629"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5783,8 +5783,8 @@ dependencies = [
 
 [[package]]
 name = "pico-patch-libs"
-version = "1.1.6"
-source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#0d51940abe70958f7c34149ebdfa043640c2caa7"
+version = "1.1.8"
+source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#f1813ece61058c3f1f09e878d1c8d791c6226629"
 dependencies = [
  "bincode",
  "serde",
@@ -5792,8 +5792,8 @@ dependencies = [
 
 [[package]]
 name = "pico-perf"
-version = "1.1.6"
-source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#0d51940abe70958f7c34149ebdfa043640c2caa7"
+version = "1.1.8"
+source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#f1813ece61058c3f1f09e878d1c8d791c6226629"
 dependencies = [
  "anyhow",
  "bincode",
@@ -5857,8 +5857,8 @@ dependencies = [
 
 [[package]]
 name = "pico-sdk"
-version = "1.1.6"
-source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#0d51940abe70958f7c34149ebdfa043640c2caa7"
+version = "1.1.8"
+source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#f1813ece61058c3f1f09e878d1c8d791c6226629"
 dependencies = [
  "anyhow",
  "bincode",
@@ -5883,8 +5883,8 @@ dependencies = [
 
 [[package]]
 name = "pico-vm"
-version = "1.1.6"
-source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#0d51940abe70958f7c34149ebdfa043640c2caa7"
+version = "1.1.8"
+source = "git+https://github.com/brevis-network/pico.git?tag=v1.1.8#f1813ece61058c3f1f09e878d1c8d791c6226629"
 dependencies = [
  "anyhow",
  "arrayref",
@@ -6319,7 +6319,7 @@ dependencies = [
  "quinn-udp",
  "rustc-hash 2.1.1",
  "rustls 0.23.35",
- "socket2 0.6.1",
+ "socket2 0.5.10",
  "thiserror 2.0.17",
  "tokio",
  "tracing",
@@ -6356,7 +6356,7 @@ dependencies = [
  "cfg_aliases",
  "libc",
  "once_cell",
- "socket2 0.6.1",
+ "socket2 0.5.10",
  "tracing",
  "windows-sys 0.60.2",
 ]
