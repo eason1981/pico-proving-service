@@ -235,8 +235,20 @@ RUST_LOG=debug cargo run -r --bin test-client prove-task --app-id APP_ID --task-
 RUST_LOG=debug cargo run -r --bin test-client get-proving-result --app-id APP_ID --task-id reth-188
 ```
 
+### Normalize ETH input
+
+```
+RUST_LOG=debug cargo run -r --bin normalize-reth-inputs -- --input rsp_reth_inputs.bin --output normalized_reth_inputs.bin
+```
+
+### Test Latest ETH blocks
+
+```
+RUST_LOG=debug VK_VERIFICATION=true cargo run -r --bin test-reth-prove -- --rpc-http-url DEBUG_RPC_URL --rpc-ws-url WS_RPC_URL (--use-gpu)
+```
+```
 ## Test on-chain
 
 The Groth16 Verifier contract has been deployed on Sepolia. It can be used for testing the final proof verification.  
 
-[View contract on Sepolia](https://sepolia.arbiscan.io/address/0xf35253Ec37A139243DdC74be32B9da868C4fa576#readContract)
+[View contract on Sepolia](https://sepolia.arbiscan.io/address/0x2a05cF897DABE411FE73b98e63ea73c316580cF9#readContract)
